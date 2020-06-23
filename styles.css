@@ -1,0 +1,24 @@
+body{
+    background-color: #8d9399;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 90px;
+}
+.box-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #8e99a3;
+    padding: 5px;
+
+  }
+  .box-item {
+    background-color: rgba(103, 218, 233, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    font-size: 50px;
+    text-align: center;
+  }
